@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumEdureka]">
+  <test name="UploadingPic(failed)">
+    <classes>
+      <class name="TestScripts">
+        <methods>
+          <include name="profileNavigateCheck"/>
+          <include name="logIn"/>
+          <include name="UpdatePicCheck"/>
+          <include name="launchEdureka"/>
+        </methods>
+      </class> <!-- TestScripts -->
+    </classes>
+  </test> <!-- UploadingPic(failed) -->
+</suite> <!-- Failed suite [SeleniumEdureka] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumEdureka" duration-ms="26426" started-at="2018-10-04T09:43:27Z" finished-at="2018-10-04T09:43:53Z">
+    <groups>
+    </groups>
+    <test name="UploadingPic" duration-ms="26426" started-at="2018-10-04T09:43:27Z" finished-at="2018-10-04T09:43:53Z">
+      <class name="TestScripts">
+        <test-method status="PASS" signature="launchEdureka()[pri:0, instance:TestScripts@52af6cff]" name="launchEdureka" is-config="true" duration-ms="5759" started-at="2018-10-04T11:43:21Z" finished-at="2018-10-04T11:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchEdureka -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestScripts@52af6cff]" name="logIn" duration-ms="4421" started-at="2018-10-04T11:43:27Z" finished-at="2018-10-04T11:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="profileNavigateCheck()[pri:0, instance:TestScripts@52af6cff]" name="profileNavigateCheck" duration-ms="8745" started-at="2018-10-04T11:43:31Z" depends-on-methods="TestScripts.logIn" finished-at="2018-10-04T11:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileNavigateCheck -->
+        <test-method status="PASS" signature="UpdatePicCheck()[pri:0, instance:TestScripts@52af6cff]" name="UpdatePicCheck" duration-ms="13246" started-at="2018-10-04T11:43:40Z" depends-on-methods="TestScripts.profileNavigateCheck" finished-at="2018-10-04T11:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePicCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestScripts@52af6cff]" name="closeBrowser" is-config="true" duration-ms="178" started-at="2018-10-04T11:43:53Z" finished-at="2018-10-04T11:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScripts -->
+    </test> <!-- UploadingPic -->
+  </suite> <!-- SeleniumEdureka -->
+</testng-results>

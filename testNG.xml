@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SeleniumEdureka">
+
+    <test name="UploadingPic">
+        <classes>
+            <class name="TestScripts"/>
+        </classes>
+    </test>
+
+</suite>

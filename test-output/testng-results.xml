@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumEdureka" duration-ms="20358" started-at="2018-09-18T03:57:05Z" finished-at="2018-09-18T03:57:26Z">
+    <groups>
+    </groups>
+    <test name="UploadingPic" duration-ms="20358" started-at="2018-09-18T03:57:05Z" finished-at="2018-09-18T03:57:26Z">
+      <class name="TestScripts">
+        <test-method status="PASS" signature="launchEdureka()[pri:0, instance:TestScripts@36d64342]" name="launchEdureka" is-config="true" duration-ms="6292" started-at="2018-09-18T05:56:59Z" finished-at="2018-09-18T05:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchEdureka -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestScripts@36d64342]" name="logIn" duration-ms="4165" started-at="2018-09-18T05:57:05Z" finished-at="2018-09-18T05:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="profileNavigateCheck()[pri:0, instance:TestScripts@36d64342]" name="profileNavigateCheck" duration-ms="10826" started-at="2018-09-18T05:57:09Z" depends-on-methods="TestScripts.logIn" finished-at="2018-09-18T05:57:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileNavigateCheck -->
+        <test-method status="PASS" signature="UpdatePicCheck()[pri:0, instance:TestScripts@36d64342]" name="UpdatePicCheck" duration-ms="5352" started-at="2018-09-18T05:57:20Z" depends-on-methods="TestScripts.profileNavigateCheck" finished-at="2018-09-18T05:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePicCheck -->
+      </class> <!-- TestScripts -->
+    </test> <!-- UploadingPic -->
+  </suite> <!-- SeleniumEdureka -->
+</testng-results>
