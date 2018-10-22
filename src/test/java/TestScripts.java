@@ -27,7 +27,7 @@ public class TestScripts {
 
         //Navigating to edureka
         driver.get("https://www.edureka.co");
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
     }
 
     //test to perform login to the edureka account successfully
